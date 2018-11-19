@@ -1,0 +1,29 @@
+
+Track wins/losses, % of answers answered correctly, ultimatley just need a statistic based on quiz preformance 
+
+Leaderboard for different users
+
+	 - update api-routes.js to get user info and display it (may need to loop through different users)
+
+
+
+https://stackoverflow.com/questions/14951789/passport-js-how-to-access-user-object-after-authentication
+
+/api/users is not displaying all usernames but is NOT using sequelize, just the npm mysql extension 
+Need to loop through emails 
+
+create dynamic html in javascript that creates new row for the table based on # of users in database (loop)
+
+Auto increment rows with user names 
+
+
+AJAX folder, NYT search has good example of how to dymanically create tables
+
+----------------------- SAVING USER SCORES ------------------------
+Will need to check who is signed in on the /members route, then update their score into that person's row on the mysql database
+
+-----------------------------------------------------------------------------------------------------------------
+
+TEST TO SEE IF CAN SHOW USER ON OTHER PAGES, SEE IF YOU CAN DISPLAY ON USER
+
+Ranking: the numbers in the colomn can be static but the user/and the score must go where the numbers are
