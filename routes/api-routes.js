@@ -66,4 +66,12 @@ module.exports = function (app) {
 
   });
 
+  //Route for getting questions from the database
+  app.get("/api/questions", function (req, res) {
+    db.Questions.findAll({})
+        .then(function (dbQuestion) {
+            res.json(dbQuestion);
+        })
+  });
+
 };

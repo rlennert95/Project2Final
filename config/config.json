@@ -2,7 +2,8 @@
     "development": {
       "username": "root",
       "password": "root",
-      "database": "passport_demo",
+      "port": 8889,
+      "database": "passport_db",
       "host": "127.0.0.1",
       "dialect": "mysql"
     },
