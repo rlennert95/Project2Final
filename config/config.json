@@ -1,14 +1,9 @@
 {
     "development": {
       "username": "root",
-<<<<<<< HEAD
-      "password": "",
       "database": "passport_demo",
-=======
-      "password": "root",
-      "port": 8889,
-      "database": "passport_db",
->>>>>>> c60c0bbffe9f5d4b9312b90ff9f9cd0cce962390
+      "password": "",
+      "port": 3306,
       "host": "127.0.0.1",
       "dialect": "mysql"
     },
