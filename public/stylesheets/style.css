@@ -11,8 +11,8 @@ body {
 #title {
   text-align: center;
   font-size: 400%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   font-weight: 400;
   margin: auto;
   margin-top: 1%;
@@ -27,8 +27,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Audiowide', cursive;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin: auto;
   margin-top: 1%;
   padding-top: 1%;
@@ -41,8 +41,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Audiowide', cursive;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin: auto;
   margin-top: 1%;
   padding-top: 1%;
@@ -53,8 +53,8 @@ body {
 
 #answers {
   text-align: center;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin: auto;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -67,8 +67,8 @@ body {
 #quiz1 {
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -78,8 +78,8 @@ body {
 
 #quiz1Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -90,8 +90,8 @@ body {
 }
 
 #quiz1Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -106,8 +106,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -116,8 +116,8 @@ body {
 
 #quiz2Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -128,8 +128,8 @@ body {
 }
 
 #quiz2Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -144,8 +144,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -154,8 +154,8 @@ body {
 
 #quiz3Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -166,8 +166,8 @@ body {
 }
 
 #quiz3Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -182,8 +182,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -192,8 +192,8 @@ body {
 
 #quiz4Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -204,8 +204,8 @@ body {
 }
 
 #quiz4Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -220,8 +220,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -230,8 +230,8 @@ body {
 
 #quiz5Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -242,8 +242,8 @@ body {
 }
 
 #quiz5Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -278,8 +278,8 @@ body {
 
 #logIn {
   text-align: center;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin: auto;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -292,8 +292,8 @@ body {
 #logInTitle {
   text-align: center;
   font-size: 400%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   font-weight: 400;
   margin: auto;
   margin-top: 1%;
@@ -305,8 +305,8 @@ body {
 }
 
 #email-login {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-top: 1%;
   margin-left: 40%;
   margin-right: 40%;
@@ -318,8 +318,8 @@ body {
 }
 
 #password-login {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-top: 1%;
   margin-left: 40%;
   margin-right: 40%;
@@ -332,8 +332,8 @@ body {
 
 #loginBTN {
   text-align: center;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   font-weight: 400;
   margin: auto;
   margin-top: 1%;
@@ -344,29 +344,57 @@ body {
   padding-right: 1%;
 }
 
-/* #navbar {
-  font-size: 200%; */
-  /* unvisited link */
-a:link {
-  color: red;
-};
-
-/* visited link */
-a:visited {
-  color: green;
-};
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-};
-
-/* selected link */
-a:active {
-  color: blue;
+#signUpTitle {
+  text-align: center;
+  font-size: 400%;
+  /* border-width: 1px;
+  border-style: solid; */
+  font-weight: 400;
+  margin: auto;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: 'Monoton', cursive;
 }
-/* }; */
 
-.navbar-inner {
-  background:transparent;
+#email-signUp {
+  /* border-width: 1px;
+  border-style: solid; */
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+#password-signUp {
+  /* border-width: 1px;
+  border-style: solid; */
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+#signUpBTN {
+  text-align: center;
+  /* border-width: 1px;
+  border-style: solid; */
+  font-weight: 400;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
