@@ -37,9 +37,8 @@ module.exports = function (app) {
   });
 
   app.get("/api/users", function(req, res) {
-    var dbQuery = "SELECT email FROM Users";
+    var dbQuery = "SELECT email, correct, incorrect FROM Users";
    
-
     connection.query(dbQuery, function(err, result) {
       if (err) throw err;
       res.json(result);
@@ -60,6 +59,8 @@ module.exports = function (app) {
       // Sending back a password, even a hashed password, isn't a good idea
       res.json({
         email: req.user.email,
+        correct: req.user.correct,
+        incorrect: req.user.incorrect,
         id: req.user.id
       });
     }
@@ -74,4 +75,15 @@ module.exports = function (app) {
         })
   });
 
+  
+  // PUT route for updating user scores
+  app.put("/api/user_data", function(req, res) {
+    console.log(req.body);
+    db.User.update(req.body, 
+      { 
+        where: {
+          id: req.user.id
+        }
+      })
+  });
 };

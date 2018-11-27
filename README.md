@@ -1,2 +1,1 @@
-# Project2Final
-Project 2 Final Version
+# trivia-db-2
