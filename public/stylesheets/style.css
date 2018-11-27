@@ -1,8 +1,3 @@
-form.signup,
-form.login {
-  margin-top: 50px;
-}
-
 body {
   background-color: bisque;
   background-image: url("../images/orangeQuestionMarks.png");
@@ -16,9 +11,9 @@ body {
 #title {
   text-align: center;
   font-size: 400%;
-  border-width: 1px;
-  border-style: solid;
-  font-weight: bold;
+  /* border-width: 1px;
+  border-style: solid; */
+  font-weight: 400;
   margin: auto;
   margin-top: 1%;
   padding-top: 1%;
@@ -28,12 +23,26 @@ body {
   font-family: 'Monoton', cursive;
 }
 
+#directions {
+  text-align: justify;
+  font-size: auto;
+  font-family: 'Audiowide', cursive;
+  /* border-width: 1px;
+  border-style: solid; */
+  margin: auto;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
 #questions {
   text-align: justify;
   font-size: auto;
   font-family: 'Audiowide', cursive;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin: auto;
   margin-top: 1%;
   padding-top: 1%;
@@ -44,8 +53,8 @@ body {
 
 #answers {
   text-align: center;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin: auto;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -58,8 +67,8 @@ body {
 #quiz1 {
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -69,8 +78,8 @@ body {
 
 #quiz1Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -81,8 +90,8 @@ body {
 }
 
 #quiz1Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -97,8 +106,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -107,8 +116,8 @@ body {
 
 #quiz2Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -119,8 +128,8 @@ body {
 }
 
 #quiz2Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -135,8 +144,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -145,8 +154,8 @@ body {
 
 #quiz3Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -157,8 +166,8 @@ body {
 }
 
 #quiz3Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -173,8 +182,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -183,8 +192,8 @@ body {
 
 #quiz4Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -195,8 +204,8 @@ body {
 }
 
 #quiz4Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -211,8 +220,8 @@ body {
   text-align: justify;
   font-size: auto;
   font-family: 'Orbitron', sans-serif;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -221,8 +230,8 @@ body {
 
 #quiz5Topic {
   font-size: 200%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
@@ -233,8 +242,8 @@ body {
 }
 
 #quiz5Pic {
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   margin-left: 1%;
 }
 
@@ -266,3 +275,126 @@ body {
   #quiz5 {
       display: inline-block;
     }
+
+#logIn {
+  text-align: center;
+  /* border-width: 1px;
+  border-style: solid; */
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#logInTitle {
+  text-align: center;
+  font-size: 400%;
+  /* border-width: 1px;
+  border-style: solid; */
+  font-weight: 400;
+  margin: auto;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: 'Monoton', cursive;
+}
+
+#email-login {
+  /* border-width: 1px;
+  border-style: solid; */
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+#password-login {
+  /* border-width: 1px;
+  border-style: solid; */
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+#loginBTN {
+  text-align: center;
+  /* border-width: 1px;
+  border-style: solid; */
+  font-weight: 400;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#signUpTitle {
+  text-align: center;
+  font-size: 400%;
+  /* border-width: 1px;
+  border-style: solid; */
+  font-weight: 400;
+  margin: auto;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: 'Monoton', cursive;
+}
+
+#email-signUp {
+  /* border-width: 1px;
+  border-style: solid; */
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+#password-signUp {
+  /* border-width: 1px;
+  border-style: solid; */
+  margin-top: 1%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+}
+
+#signUpBTN {
+  text-align: center;
+  /* border-width: 1px;
+  border-style: solid; */
+  font-weight: 400;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}

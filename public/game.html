@@ -20,8 +20,6 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <!-- Question font -->
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="js/game.js"></script>
 </head>
 
 <body>
@@ -30,12 +28,18 @@
         <h1>Trivia!</h1>
     </div>
 
+    <!-- Directions for the game -->
+    <div class="container" id="directions">
+        <h1>Scroll horizontally to quiz topic you find interesting. Click it and answer the 5 questions that follow.
+            See how you stack up against your friends!</h1>
+    </div>
+
     <!-- carousel for quizzes -->
     <div class="scrolling-wrapper" class="quizzes">
         <div class="container" id="quiz1">
             <div class="row">
                 <div class="col-3" class="quizPics" id="quiz1Pic">
-                    <img src="./assets/images/beakerBubbles.png" alt="Science" height="100px" width="100px" class="image"
+                    <img src="./images/beakerBubbles.png" alt="Science" height="100px" width="100px" class="image"
                         id="quiz1Image">
                 </div>
 
@@ -47,7 +51,7 @@
         <div class="container" id="quiz2">
             <div class="row">
                 <div class="col-3" class="quizPics" id="quiz2Pic">
-                    <img src="./assets/images/mathSigns.png" alt="Math" height="100px" width="100px" class="image" id="quiz2Image">
+                    <img src="./images/mathSigns.png" alt="Math" height="100px" width="100px" class="image" id="quiz2Image">
                 </div>
                 <div class="col-7" class="quizTopics" id="quiz2Topic">
                     <h1>Math</h1>
@@ -57,7 +61,7 @@
         <div class="container" id="quiz3">
             <div class="row">
                 <div class="col-3" class="quizPics" id="quiz3Pic">
-                    <img src="./assets/images/worldWonders.png" alt="World Wonders" height="100px" width="100px" class="image"
+                    <img src="./images/worldWonders.png" alt="World Wonders" height="100px" width="100px" class="image"
                         id="quiz3Image">
                 </div>
                 <div class="col-7" class="quizTopics" id="quiz3Topic">
@@ -66,42 +70,26 @@
             </div>
         </div>
         <div class="container" id="quiz4">
-                <div class="row">
-                    <div class="col-3" class="quizPics" id="quiz4Pic">
-                        <img src="./assets/images/history.png" alt="History" height="100px" width="100px" class="image"
-                            id="quiz4Image">
-                    </div>
-                    <div class="col-7" class="quizTopics" id="quiz4Topic">
-                        <h1>History</h1>
-                    </div>
+            <div class="row">
+                <div class="col-3" class="quizPics" id="quiz4Pic">
+                    <img src="./images/history.png" alt="History" height="100px" width="100px" class="image" id="quiz4Image">
+                </div>
+                <div class="col-7" class="quizTopics" id="quiz4Topic">
+                    <h1>History</h1>
                 </div>
             </div>
-            <div class="container" id="quiz5">
-                    <div class="row">
-                        <div class="col-3" class="quizPics" id="quiz5Pic">
-                            <img src="./assets/images/globe.png" alt="Geography" height="100px" width="100px" class="image"
-                                id="quiz3Image">
-                        </div>
-                        <div class="col-7" class="quizTopics" id="quiz3Topic">
-                            <h1>Geography</h1>
-                        </div>
-                    </div>
+        </div>
+        <div class="container" id="quiz5">
+            <div class="row">
+                <div class="col-3" class="quizPics" id="quiz5Pic">
+                    <img src="./images/globe.png" alt="Geography" height="100px" width="100px" class="image" id="quiz3Image">
                 </div>
+                <div class="col-7" class="quizTopics" id="quiz3Topic">
+                    <h1>Geography</h1>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="card">
-        <div class="card-header">
-            Questions
-        </div>
-        <div class="card-body" id="well-section">
-
-        </div>
-        <div class="card-body" id="submit-section">
-
-        </div>
-
-        <a class="btn btn-danger btn-lg" id="qGen">
-            <span class="fa fa-eye"></span>Generate Questions</a>
 
     <!-- Questions box -->
     <div class="container" id="questions">
