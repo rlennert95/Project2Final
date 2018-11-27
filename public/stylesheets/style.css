@@ -3,7 +3,7 @@ body {
   background-image: url("../images/orangeQuestionMarks.png");
   color: black;
   border-width: 1px;
-  border: solid;
+  /* border: solid; */
   padding-left: 1%;
   padding-right: 1%;
 }
@@ -36,245 +36,6 @@ body {
   padding-left: 1%;
   padding-right: 1%;
 }
-
-#questions {
-  text-align: justify;
-  font-size: auto;
-  font-family: 'Audiowide', cursive;
-  /* border-width: 1px;
-  border-style: solid; */
-  margin: auto;
-  margin-top: 1%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-#answers {
-  text-align: center;
-  /* border-width: 1px;
-  border-style: solid; */
-  margin: auto;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-#quiz1 {
-  font-size: auto;
-  font-family: 'Orbitron', sans-serif;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-right: 1%;
-}
-
-#quiz1Topic {
-  font-size: 200%;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-top: 0%;
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-#quiz1Pic {
-  /* border-width: 1px;
-  border-style: solid; */
-  margin-left: 1%;
-}
-
-#quiz1Image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-#quiz2 {
-  text-align: justify;
-  font-size: auto;
-  font-family: 'Orbitron', sans-serif;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-#quiz2Topic {
-  font-size: 200%;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-top: 0%;
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-#quiz2Pic {
-  /* border-width: 1px;
-  border-style: solid; */
-  margin-left: 1%;
-}
-
-#quiz2Image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-#quiz3 {
-  text-align: justify;
-  font-size: auto;
-  font-family: 'Orbitron', sans-serif;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-#quiz3Topic {
-  font-size: 200%;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-top: 0%;
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-#quiz3Pic {
-  /* border-width: 1px;
-  border-style: solid; */
-  margin-left: 1%;
-}
-
-#quiz3Image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-#quiz4 {
-  text-align: justify;
-  font-size: auto;
-  font-family: 'Orbitron', sans-serif;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-#quiz4Topic {
-  font-size: 200%;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-top: 0%;
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-#quiz4Pic {
-  /* border-width: 1px;
-  border-style: solid; */
-  margin-left: 1%;
-}
-
-#quiz4Image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-#quiz5 {
-  text-align: justify;
-  font-size: auto;
-  font-family: 'Orbitron', sans-serif;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-#quiz5Topic {
-  font-size: 200%;
-  /* border-width: 1px;
-  border-style: solid; */
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-top: 0%;
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-#quiz5Pic {
-  /* border-width: 1px;
-  border-style: solid; */
-  margin-left: 1%;
-}
-
-#quiz5Image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  margin-top: 1%;
-}
-  #quiz1 {
-    display: inline-block;
-  }
-  #quiz2 {
-      display: inline-block;
-    }
-  #quiz3 {
-      display: inline-block;
-    }
-  #quiz4 {
-      display: inline-block;
-    }
-  #quiz5 {
-      display: inline-block;
-    }
 
 #logIn {
   text-align: center;
@@ -397,4 +158,118 @@ body {
   padding-bottom: 1%;
   padding-left: 1%;
   padding-right: 1%;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+/* text/image relationship image1*/
+.image-1 {
+    position: absolute;
+    top: 106px;
+}
+
+/* text/image relationship image2 */
+.image-2 {
+    position: absolute;
+    top: 106px;
+    left: 400px;
+}
+
+/* text/image relationship image3 */
+.image-3 {
+    position: absolute;
+    left: 20px;
+    top: 360px;
+}
+
+/* text/image relationship image4 */
+.image-4 {
+    position: absolute;
+    top: 360px;
+    left: 400px;
+}
+
+/* text "button" for first item */
+.image-1-text {
+    background-color: black;
+    color: lightgray;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+/* text "button" for second item */
+.image-2-text {
+    background-color: black;
+    color: lightgray;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+/* text "button" for third item */
+.image-3-text {
+    background-color: black;
+    color: lightgray;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+/* text "button" for fourth item */
+.image-4-text {
+    background-color: black;
+    color: lightgray;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+#questions {
+  border: solid;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+#nav {
+  font-size: 150%;
+  font-family: 'Audiowide', cursive;
 }
