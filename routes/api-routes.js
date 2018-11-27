@@ -36,14 +36,17 @@ module.exports = function (app) {
     res.redirect("/");
   });
 
-  app.get("/api/users", function(req, res) {
-    var dbQuery = "SELECT email, correct, incorrect FROM Users";
-   
-    connection.query(dbQuery, function(err, result) {
-      if (err) throw err;
-      res.json(result);
-    });
+
+
+  app.get("/api/users", function (req, res) {
+    db.User.findAll({})
+        .then(function (dbUser) {
+            res.json(dbUser);
+        })
   });
+
+ 
+
 
 
   // Route for getting some data about our user to be used client side
