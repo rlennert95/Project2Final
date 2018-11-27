@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Responsive link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Page Title -->
@@ -24,96 +25,66 @@
     <script src="js/game.js"></script>
 </head>
 
-<body>
-    <!-- Header box -->
-    <div class="container" id="title">
-        <h1>Trivia!</h1>
+<header>
+    <div class="header-container" id="nav">
+
+        <div class="links">
+            <a href="./login.html">Login</a> |
+
+            <a href="./signup.html">Sign Up</a> |
+
+            <a href="./leaderboard.html">Leaderboard</a>
+        </div>
+
+    </div>
+</header>
+
+<div class="container" id="title">
+    <p>Trivia!</p>
+</div>
+
+<div class="container" id="directions">
+    <p>Please select a quiz from the following subects!</p>
+</div>
+
+<div class="clearfix">
+
+    <div class="image-1" id="quiz1">
+        <a href="#">
+            <img src="./images/beakerBubbles.png" target="_blank" alt="image-1" width="125" height="125" style="
+                margin-left: 90px;">
+            <div class="image-1-text">Science</div>
+        </a>
     </div>
 
-    <!-- carousel for quizzes -->
-    <div class="scrolling-wrapper" class="quizzes">
-        <div class="container" id="quiz1">
-            <div class="row">
-                <div class="col-3" class="quizPics" id="quiz1Pic">
-                    <img src="./assets/images/beakerBubbles.png" alt="Science" height="100px" width="100px" class="image"
-                        id="quiz1Image">
-                </div>
+    <div class="image-2">
+        <a href="#">
+            <img src="./images/mathSigns.png" target="_blank" alt="image-2" width="125" height="125" style="
+                margin-left: 90px;">
+            <div class="image-2-text">Math</div>
+        </a>
 
-                <div class="col" class="quizTopics" id="quiz1Topic">
-                    <h1>Science</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="quiz2">
-            <div class="row">
-                <div class="col-3" class="quizPics" id="quiz2Pic">
-                    <img src="./assets/images/mathSigns.png" alt="Math" height="100px" width="100px" class="image" id="quiz2Image">
-                </div>
-                <div class="col-7" class="quizTopics" id="quiz2Topic">
-                    <h1>Math</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="quiz3">
-            <div class="row">
-                <div class="col-3" class="quizPics" id="quiz3Pic">
-                    <img src="./assets/images/worldWonders.png" alt="World Wonders" height="100px" width="100px" class="image"
-                        id="quiz3Image">
-                </div>
-                <div class="col-7" class="quizTopics" id="quiz3Topic">
-                    <h1>World Wonders</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="quiz4">
-                <div class="row">
-                    <div class="col-3" class="quizPics" id="quiz4Pic">
-                        <img src="./assets/images/history.png" alt="History" height="100px" width="100px" class="image"
-                            id="quiz4Image">
-                    </div>
-                    <div class="col-7" class="quizTopics" id="quiz4Topic">
-                        <h1>History</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="container" id="quiz5">
-                    <div class="row">
-                        <div class="col-3" class="quizPics" id="quiz5Pic">
-                            <img src="./assets/images/globe.png" alt="Geography" height="100px" width="100px" class="image"
-                                id="quiz3Image">
-                        </div>
-                        <div class="col-7" class="quizTopics" id="quiz3Topic">
-                            <h1>Geography</h1>
-                        </div>
-                    </div>
-                </div>
     </div>
 
-    <div class="card">
-        <div class="card-header">
-            Questions
-        </div>
-        <div class="card-body" id="well-section">
+    <div class="image-3">
+        <a href="#">
+            <img src="./images/history.png" target="_blank" alt="image-3" width="125" height="125" style="
+                margin-left: 90px;">
+            <div class="image-3-text">History</div>
+        </a>
 
-        </div>
-        <div class="card-body" id="submit-section">
-
-        </div>
-
-        <a class="btn btn-danger btn-lg" id="qGen">
-            <span class="fa fa-eye"></span>Generate Questions</a>
-
-    <!-- Questions box -->
-    <div class="container" id="questions">
-        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum euismod arcu ut finibus. Nulla
-            vitae varius mauris, eu eleifend lacus. Proin hendrerit arcu eu metus elementum elementum.</h1>
     </div>
 
-    <!-- True/False answers -->
-    <div class="container" id="answers">
-        <button type="button" class="btn btn-default">True</button>
-        <button type="button" class="btn btn-default">False</button>
+    <div class="image-4">
+        <a href="#">
+            <img src="./images/globe.png" target="_blank" alt="image-4" width="125" height="125" style="
+                margin-left: 90px;">
+            <div class="image-4-text">Geography</div>
+        </a>
+
     </div>
+
+</div>
 
 </body>
 
