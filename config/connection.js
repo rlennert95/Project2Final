@@ -7,16 +7,11 @@ var mysql = require("mysql");
 
 // Set up our connection information
 var connection = mysql.createConnection({
-  port: 8889,
+  port: 3306,
   host: "localhost",
   user: "root",
-<<<<<<< HEAD
   password: "root",
-  database: "qanda_db"
-=======
-  password: "",
   database: "passport_demo"
->>>>>>> c804d915781d7c58565faf9aa51793497e35a5c0
 });
 
 // Connect to the database

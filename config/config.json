@@ -1,17 +1,13 @@
 {
     "development": {
       "username": "root",
-<<<<<<< HEAD
       "password": "root",
-      "port": 8889,
-      "database": "qanda_db",
-=======
       "database": "passport_demo",
-      "password": "",
-      "port": 3306,
->>>>>>> c804d915781d7c58565faf9aa51793497e35a5c0
       "host": "127.0.0.1",
-      "dialect": "mysql"
+      "dialect": "mysql",
+      "define": {
+        "timestamps": false
+    }
     },
     "test": {
       "username": "root",
