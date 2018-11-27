@@ -53,7 +53,7 @@ $(function () {
         console.log("first function called");
         $.ajax({
             method: "PUT",
-            url: "/api/correct",
+            url: "/api/user_data",
             data: correct
         });
     }
