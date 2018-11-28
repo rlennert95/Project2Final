@@ -41,6 +41,16 @@ var questions = [{
     image: "assets/images.riddle.jpg"
 }];
 
+var wrong = new Audio("../music/soundsilk-buzzer-wrong-answer.mp3");
+var right = new Audio("../music/soundsilk-Correct-Answer-Soundeffect.mp3");
+var clock = new Audio("../music/soundSilk-Timer-Clock-Ticking.mp3");
+
+function stopAudio() {
+    clock.pause();
+    clock.currentTime = 0;
+}
+
+
 var game = {
     questions: questions,
     currentQuestion: 0,
@@ -72,6 +82,7 @@ var game = {
     },
     loadQuestion: function () {
         timer = setInterval(game.countdown, 1000);
+        clock.play();
         $('#subwrapper').html("<h2> TIME REMAINING: <span id='counter'>30</span> Seconds</h2>");
         $('#subwrapper').append('<h2>' + questions[game.currentQuestion].question + '</h2>');
         for (var i = 0; i < questions[game.currentQuestion].answers.length; i++) {
@@ -89,6 +100,8 @@ var game = {
         game.loadQuestion();
     },
     timeUp: function () {
+        stopAudio(clock);
+        wrong.play()
         clearInterval(timer);
         game.unanswered++;
         $('#subwrapper').html('<h2> SORRY OUT OF TIME! </H2>');
@@ -124,6 +137,8 @@ var game = {
 
     },
     answeredCorrectly: function () {
+        stopAudio(clock);
+        right.play();
         console.log("Right");
         clearInterval(timer);
         game.correct++;
@@ -139,6 +154,8 @@ var game = {
 
     },
     answeredIncorrectly: function () {
+        stopAudio(clock);
+        wrong.play();
         console.log("wrong");
         clearInterval(timer);
         game.incorrect++;
