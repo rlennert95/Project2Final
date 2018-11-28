@@ -46,7 +46,7 @@ module.exports = function(app) {
   });
 
   app.get("/quiz1", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/quiz.html"))
+    res.sendFile(path.join(__dirname, "../public/Quiz.html"))
   });
 
   app.get("/quiz2", function(req, res) {
