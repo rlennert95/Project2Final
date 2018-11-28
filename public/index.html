@@ -1,57 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head> 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Responsive link -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Page Title -->
-  <title>Leaderboard</title>
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous">
-  <!--Link to css reset stylesheet-->
-  <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css">
-  <!-- Link to unique css styling -->
-  <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
-  <!-- Title font -->
-  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-  <!-- Quizzes font -->
-  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-  <!-- Question font -->
-  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsive link -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>Index</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!--Link to css reset stylesheet-->
+    <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css">
+    <!-- Link to unique css styling -->
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+    <!-- Title font -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <!-- Quizzes font -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <!-- Question font -->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!--  -->
+    <script src="js/game.js"></script>
 </head>
 
 <body>
 <!-- "Navbar" -->
-<header>
-  <div class="header-container" id="nav">
-      <div class="links">
-          <a href="./login.html">Login</a> |
-          <a href="./signup.html">Sign Up</a> |
-          <a href="./leaderboard.html">Leaderboard</a>
-      </div>
-  </div>
-</header>
+    <header>
+        <div class="header-container" id="nav">
+            <div class="links">
+                <a href="./login.html">Login</a> |
+                <a href="./signup.html">Sign Up</a> |
+                <a href="./leaderboard.html">Leaderboard</a>
+            </div>
+        </div>
+    </header>
 
-
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <h2>HOME PAGE</h2>
-        <h2>Welcome <span class="member-name"></span></h2>
-        <p>Sign Up here <a href="/signup">here</a></p>
-        <p>Or log in <a href="/login">here</a></p>
-      </div>
+    <div class="container" id="title">
+        <p>Trivia!</p>
     </div>
-  </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/index.js"></script>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <a href="/quiz1">
+                <img src="./images/beakerBubbles.png" target="_blank" alt="image-1" width="125" height="125" style="
+                margin-left: 90px;">
+                <div class="image-1-text">Science</div>
+            </a>
+          </div>
+          <div class="col-sm">
+            <a href="/quiz2">
+                <img src="./images/mathSigns.png" target="_blank" alt="image-2" width="125" height="125" style="
+                margin-left: 90px;">
+                <div class="image-2-text">Math</div>
+            </a>
+          </div>
+          <div class="col-sm">
+            <a href="/quiz3">
+                <img src="./images/history.png" target="_blank" alt="image-3" width="125" height="125" style="
+                margin-left: 90px;">
+                <div class="image-3-text">History</div>
+            </a>
+          </div>
+        </div>
+        <br> <br> <br> <br> <br>
+        <br> <br> 
+        <div class="row">
+            <div class="col-sm">
+              <a href="/quiz4">
+                  <img src="./images/globe.png" target="_blank" alt="image-1" width="125" height="125" style="
+                  margin-left: 90px;">
+                  <div class="image-1-text">Geography</div>
+              </a>
+            </div>
+            <div class="col-sm">
+              <a href="/quiz5">
+                  <img src="./images/orangeQuestionMarks.png" target="_blank" alt="image-2" width="125" height="125" style="
+                  margin-left: 90px;">
+                  <div class="image-2-text">Random</div>
+              </a>
+            </div>
+            <div class="col-sm">
+              <a href="/quiz6">
+                  <img src="./images/worldWonders.png" target="_blank" alt="image-3" width="125" height="125" style="
+                  margin-left: 90px;">
+                  <div class="image-3-text">Ancient Civilizations</div>
+              </a>
+            </div>
+          </div>
+      </div>
+
+    <div class="clearfix">
+
+      
+
+
+      
+
+    </div>
 
 </body>
 

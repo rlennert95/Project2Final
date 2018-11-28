@@ -27,8 +27,6 @@ $(function () {
                         correct:correct,
                         incorrect:incorrect
                     }
-                    // correct: correct,
-                    // incorrect: incorrect
                 })
             }
             postScore();

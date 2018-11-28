@@ -11,7 +11,7 @@ module.exports = function(app) {
     if (req.user) {
       res.redirect("/members");
     }
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+    res.sendFile(path.join(__dirname, "../public/game.html"));
   });
 
   app.get("/signup", function(req, res) {
@@ -41,12 +41,38 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/leaderboard.html"));
   });
 
-  app.get("/game", function(req, res) {
+  app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/game.html"))
+  });
+
+  app.get("/quiz1", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/quiz.html"))
+  });
+
+  app.get("/quiz2", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/quiz2.html"))
+  });
+
+  app.get("/quiz3", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/quiz3.html"))
+  });
+
+  app.get("/quiz4", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/quiz4.html"))
+  });
+
+  app.get("/quiz5", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/quiz5.html"))
+  });
+
+  app.get("/quiz6", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/quiz6.html"))
   });
 
   app.get("/score", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/score.html"))
   });
+
+
 
 };

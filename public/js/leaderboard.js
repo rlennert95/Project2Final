@@ -11,8 +11,8 @@ $(document).ready(function () {
 
       var rowHTML =
         "<tr>" +
-        "<td scope='row'>" + rank + "</th>" +
-        "<td>" + data[x].email + "</td>" +
+      
+        "<td scope='row'>" + data[x].email + "</td>" +
         "<td>" + data[x].correct + "</td>" +
         "<td>" + data[x].incorrect + "</td>" +
         "</tr>";

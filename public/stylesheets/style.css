@@ -1,6 +1,6 @@
 body {
-  background-color: white;
-  background-image: url("../images/orangeQuestionMarks.png");
+  background-color: green;
+  /*background-image: url("../images/orangeQuestionMarks.png");*/
   color: black;
   border-width: 1px;
   /* border: solid; */
@@ -43,6 +43,7 @@ a:active {
 #title {
   text-align: center;
   font-size: 400%;
+  color: white;
   /* border-width: 1px;
   border-style: solid; */
   font-weight: 400;
@@ -277,3 +278,30 @@ header {
   border: solid;
 }
 
+#wrapper {
+  text-align: center;
+}
+
+#subwrapper {
+  color: whitesmoke;
+  
+  padding-top: 100px;
+}
+
+#quizTitle {
+  font-size: 450%;
+}
+
+#submit {
+  margin-top: 5%;
+}
+
+#leaderboard_title {
+  font-size: 250%;
+  text-align: center;
+  color: white;
+}
+
+.table {
+  color: white;
+}

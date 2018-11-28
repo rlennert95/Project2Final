@@ -78,7 +78,6 @@ module.exports = function (app) {
         })
   });
 
-  
   // PUT route for updating user scores
   app.put("/api/user_data", function(req, res) {
     console.log(req.body);
